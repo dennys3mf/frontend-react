@@ -1,0 +1,28 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background-image: url('https://images.unsplash.com/photo-1534488977196-18d1b0e62f02');
+  background-size: cover;
+  padding: 20px;
+}
+
+.formContainer {
+  width: 400px;
+  background-color: rgba(255, 255, 255, 0.8);
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+}
+
+.inputField {
+  margin-bottom: 10px;
+}
+
+.gifImage {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+}
